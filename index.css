@@ -253,6 +253,10 @@ tr {
   margin-bottom: 7px;
 }
 
+tr:last-child {
+  margin: unset;
+}
+
 .date-picker-container {
     font-family: "Work Sans", sans-serif;
     outline: none !important;
